@@ -1,0 +1,30 @@
+{
+    "name": "Monash WES Past Student Login",
+    "version": "1.0",
+    "description": "Stop entering your details every time, this extension will do it for you!",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "wesdetails.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "monash.ico",
+            "32": "monash.ico",
+            "48": "monash.ico",
+            "128": "monash.ico"
+        }
+    },
+    "icons": {
+        "16": "monash.ico",
+        "32": "monash.ico",
+        "48": "monash.ico",
+        "128": "monash.ico"
+    },
+    "manifest_version": 2
+}
